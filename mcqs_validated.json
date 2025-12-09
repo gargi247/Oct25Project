@@ -1,0 +1,1507 @@
+[
+  {
+    "id": 1,
+    "question": "A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7\u00b0F (36.5\u00b0C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?",
+    "options": {
+      "A": "Ampicillin",
+      "B": "Ceftriaxone",
+      "C": "Doxycycline",
+      "D": "Nitrofurantoin"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient, in her second trimester of pregnancy, presents with classic symptoms of an uncomplicated lower urinary tract infection (cystitis), specifically dysuria. The absence of fever and costovertebral angle tenderness makes pyelonephritis unlikely. Treatment guidelines for cystitis in pregnancy favor agents safe for the fetus. Nitrofurantoin is a first-line choice in the second trimester. Doxycycline is contraindicated in pregnancy. Ampicillin has high E. coli resistance rates, making it a poor empirical choice. Ceftriaxone is reserved for more severe infections like pyelonephritis.",
+      "concepts": [
+        {
+          "name": "Pregnancy (finding)",
+          "snomed_id": "72919008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=72919008"
+        },
+        {
+          "name": "Second trimester of pregnancy (finding)",
+          "snomed_id": "161745009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=161745009"
+        },
+        {
+          "name": "Dysuria (finding)",
+          "snomed_id": "162238009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=162238009"
+        },
+        {
+          "name": "Cystitis in pregnancy (disorder)",
+          "snomed_id": "426742006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=426742006"
+        },
+        {
+          "name": "Uncomplicated urinary tract infection (disorder)",
+          "snomed_id": "236620002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=236620002"
+        },
+        {
+          "name": "Pyelonephritis in pregnancy (disorder)",
+          "snomed_id": "198129008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=198129008"
+        },
+        {
+          "name": "Nitrofurantoin (substance)",
+          "snomed_id": "74383008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=74383008"
+        },
+        {
+          "name": "Doxycycline (substance)",
+          "snomed_id": "36543003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=36543003"
+        },
+        {
+          "name": "Tetracycline contraindicated during pregnancy (finding)",
+          "snomed_id": "443541000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=443541000"
+        },
+        {
+          "name": "Ampicillin (substance)",
+          "snomed_id": "30958001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=30958001"
+        },
+        {
+          "name": "Drug resistance to ampicillin (finding)",
+          "snomed_id": "447541001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=447541001"
+        },
+        {
+          "name": "Ceftriaxone (substance)",
+          "snomed_id": "387508004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=387508004"
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "question": "A 3-month-old baby died suddenly at night while asleep. His mother noticed that he had died only after she awoke in the morning. No cause of death was determined based on the autopsy. Which of the following precautions could have prevented the death of the baby?",
+    "options": {
+      "A": "Placing the infant in a supine position on a firm mattress while sleeping",
+      "B": "Keeping the infant covered and maintaining a high room temperature",
+      "C": "Application of a device to maintain the sleeping position",
+      "D": "Avoiding pacifier use during sleep"
+    },
+    "gemini_answer": "A",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The clinical presentation is characteristic of Sudden Infant Death Syndrome (SIDS), defined as the sudden, unexplained death of an infant younger than 1 year. The single most effective preventive measure is placing the infant in a supine position for sleep on a firm surface, which is a core component of safe sleep recommendations. Other options describe known risk factors for SIDS. Overheating, a form of environmental hyperthermia, increases risk. Sleep positioning devices are contraindicated as they can lead to suffocation. Pacifier use during sleep is actually protective against SIDS, so avoiding it would be counterproductive.",
+      "concepts": [
+        {
+          "name": "Sudden infant death syndrome (finding)",
+          "snomed_id": "113341001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=113341001"
+        },
+        {
+          "name": "Placing infant in supine position for sleep (procedure)",
+          "snomed_id": "443940003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=443940003"
+        },
+        {
+          "name": "Risk factor for sudden infant death syndrome (finding)",
+          "snomed_id": "276597004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=276597004"
+        },
+        {
+          "name": "Prone sleeping position (finding)",
+          "snomed_id": "449133008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=449133008"
+        },
+        {
+          "name": "Environmental hyperthermia (disorder)",
+          "snomed_id": "266896008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=266896008"
+        },
+        {
+          "name": "Pacifier use (finding)",
+          "snomed_id": "161148005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=161148005"
+        },
+        {
+          "name": "Advice about sleep position of infant (procedure)",
+          "snomed_id": "312686004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=312686004"
+        },
+        {
+          "name": "Suffocation (event)",
+          "snomed_id": "442562000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=442562000"
+        },
+        {
+          "name": "Sudden unexpected death in infancy (finding)",
+          "snomed_id": "271611005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271611005"
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "question": "A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?",
+    "options": {
+      "A": "Abnormal migration of ventral pancreatic bud",
+      "B": "Complete failure of proximal duodenum to recanalize",
+      "C": "Abnormal hypertrophy of the pylorus",
+      "D": "Failure of lateral body folds to move ventrally and fuse in the midline"
+    },
+    "gemini_answer": "A",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The infant's presentation with bilious (yellow) vomiting at 3 weeks of age suggests an intestinal obstruction distal to the major duodenal papilla (ampulla of Vater), where bile enters the gut. Annular pancreas, which results from the abnormal migration of the ventral pancreatic bud (Option A), can cause such an obstruction. Complete duodenal atresia (Option B) typically presents earlier, in the first days of life. Pyloric stenosis (Option C) causes obstruction proximal to the bile duct, resulting in non-bilious vomiting. Failure of lateral body fold fusion (Option D) causes major abdominal wall defects like omphalocele or gastroschisis, which are apparent at birth.",
+      "concepts": [
+        {
+          "name": "Bilious vomiting (finding)",
+          "snomed_id": "16911003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=16911003"
+        },
+        {
+          "name": "Intestinal obstruction in newborn (disorder)",
+          "snomed_id": "416513003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=416513003"
+        },
+        {
+          "name": "Major duodenal papilla (body structure)",
+          "snomed_id": "29544003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=29544003"
+        },
+        {
+          "name": "Annular pancreas (disorder)",
+          "snomed_id": "75662005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=75662005"
+        },
+        {
+          "name": "Failure of rotation of ventral pancreas (morphologic abnormality)",
+          "snomed_id": "300913008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=300913008"
+        },
+        {
+          "name": "Congenital hypertrophic pyloric stenosis (disorder)",
+          "snomed_id": "41595003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=41595003"
+        },
+        {
+          "name": "Non-bilious vomiting (finding)",
+          "snomed_id": "274712000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=274712000"
+        },
+        {
+          "name": "Congenital atresia of duodenum (disorder)",
+          "snomed_id": "66495003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=66495003"
+        },
+        {
+          "name": "Congenital anomaly of anterior abdominal wall (disorder)",
+          "snomed_id": "417804008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=417804008"
+        },
+        {
+          "name": "Omphalocele (disorder)",
+          "snomed_id": "41344001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=41344001"
+        },
+        {
+          "name": "Gastroschisis (disorder)",
+          "snomed_id": "49872005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49872005"
+        },
+        {
+          "name": "Fussy infant (finding)",
+          "snomed_id": "279331002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=279331002"
+        },
+        {
+          "name": "Abdominal distension (finding)",
+          "snomed_id": "60728008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=60728008"
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "question": "A pulmonary autopsy specimen from a 58-year-old woman who died of acute hypoxic respiratory failure was examined. She had recently undergone surgery for a fractured femur 3 months ago. Initial hospital course was uncomplicated, and she was discharged to a rehab facility in good health. Shortly after discharge home from rehab, she developed sudden shortness of breath and had cardiac arrest. Resuscitation was unsuccessful. On histological examination of lung tissue, fibrous connective tissue around the lumen of the pulmonary artery is observed. Which of the following is the most likely pathogenesis for the present findings?",
+    "options": {
+      "A": "Thromboembolism",
+      "B": "Pulmonary ischemia",
+      "C": "Pulmonary hypertension",
+      "D": "Pulmonary passive congestion"
+    },
+    "gemini_answer": "A",
+    "validator_answer": "A",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's history of a femur fracture and surgery is a major risk factor for deep vein thrombosis (DVT). The clinical presentation of sudden dyspnea and cardiac arrest, leading to acute hypoxic respiratory failure, is classic for a massive pulmonary embolism (PE). The key histological finding of fibrous tissue in the pulmonary artery indicates an organized thrombus, a sign of a chronic thromboembolic process that likely led to chronic thromboembolic pulmonary hypertension (CTEPH). The fatal event was probably a new, acute PE superimposed on this chronic condition. Therefore, thromboembolism is the primary pathogenesis that explains the entire clinical and pathological picture.",
+      "concepts": [
+        {
+          "name": "Thromboembolism (disorder)",
+          "snomed_id": "111244006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=111244006"
+        },
+        {
+          "name": "Pulmonary embolism (disorder)",
+          "snomed_id": "59282003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=59282003"
+        },
+        {
+          "name": "Organized thrombus (morphologic abnormality)",
+          "snomed_id": "46135008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=46135008"
+        },
+        {
+          "name": "Deep vein thrombosis (disorder)",
+          "snomed_id": "128053003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=128053003"
+        },
+        {
+          "name": "Fracture of femur (disorder)",
+          "snomed_id": "71620000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=71620000"
+        },
+        {
+          "name": "Chronic thromboembolic pulmonary hypertension (disorder)",
+          "snomed_id": "448834001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=448834001"
+        },
+        {
+          "name": "Acute hypoxemic respiratory failure (disorder)",
+          "snomed_id": "426887009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=426887009"
+        },
+        {
+          "name": "Cardiac arrest (disorder)",
+          "snomed_id": "410429000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=410429000"
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "question": "A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses \u201chave always been heavy\u201d, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1\u00b0C (96.9\u00b0F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient\u2019s symptoms?",
+    "options": {
+      "A": "Hemophilia A",
+      "B": "Lupus anticoagulant",
+      "C": "Protein C deficiency",
+      "D": "Von Willebrand disease"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's clinical presentation, including a lifelong history of mucocutaneous bleeding (menorrhagia, easy bruising), a positive family history suggestive of autosomal dominant inheritance, and laboratory findings of a normal platelet count, normal prothrombin time (PT), and an isolated prolonged partial thromboplastin time (PTT), is classic for Von Willebrand disease. The prolonged PTT occurs because von Willebrand factor stabilizes Factor VIII. Hemophilia A is X-linked and thus unlikely in a female. Lupus anticoagulant and Protein C deficiency are prothrombotic disorders, which are inconsistent with the patient's bleeding symptoms.",
+      "concepts": [
+        {
+          "name": "Von Willebrand disease (disorder)",
+          "snomed_id": "49147003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49147003"
+        },
+        {
+          "name": "Menorrhagia (finding)",
+          "snomed_id": "386692008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=386692008"
+        },
+        {
+          "name": "Easy bruising (finding)",
+          "snomed_id": "423141004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=423141004"
+        },
+        {
+          "name": "Prolonged activated partial thromboplastin time (finding)",
+          "snomed_id": "102874004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=102874004"
+        },
+        {
+          "name": "Normal platelet count (finding)",
+          "snomed_id": "165512003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=165512003"
+        },
+        {
+          "name": "Normal prothrombin time (finding)",
+          "snomed_id": "165492007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=165492007"
+        },
+        {
+          "name": "Family history of hemorrhagic disorder (situation)",
+          "snomed_id": "429119001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=429119001"
+        },
+        {
+          "name": "Hemophilia A (disorder)",
+          "snomed_id": "52781008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=52781008"
+        },
+        {
+          "name": "Presence of lupus anticoagulant (finding)",
+          "snomed_id": "89970008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=89970008"
+        },
+        {
+          "name": "Hereditary protein C deficiency disease (disorder)",
+          "snomed_id": "51688001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=51688001"
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "question": "A 40-year-old zookeeper presents to the emergency department complaining of severe abdominal pain that radiates to her back, and nausea. The pain started 2 days ago and slowly increased until she could not tolerate it any longer. Past medical history is significant for hypertension and hypothyroidism. Additionally, she reports that she was recently stung by one of the zoo\u2019s smaller scorpions, but did not seek medical treatment. She takes aspirin, levothyroxine, oral contraceptive pills, and a multivitamin daily. Family history is noncontributory. Today, her blood pressure is 108/58 mm Hg, heart rate is 99/min, respiratory rate is 21/min, and temperature is 37.0\u00b0C (98.6\u00b0F). On physical exam, she is a well-developed, obese female that looks unwell. Her heart has a regular rate and rhythm. Radial pulses are weak but symmetric. Her lungs are clear to auscultation bilaterally. Her lateral left ankle is swollen, erythematous, and painful to palpate. An abdominal CT is consistent with acute pancreatitis. Which of the following is the most likely etiology for this patient\u2019s disease?",
+    "options": {
+      "A": "Aspirin",
+      "B": "Oral contraceptive pills",
+      "C": "Scorpion sting",
+      "D": "Hypothyroidism"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's clinical presentation, including severe abdominal pain radiating to the back, nausea, and CT findings, confirms a diagnosis of acute pancreatitis. The most probable etiology is the recent scorpion sting, strongly supported by her occupation as a zookeeper and the physical findings of a swollen, erythematous ankle (the likely sting site). This is a well-established causal link, represented by the specific concept 'Acute pancreatitis caused by scorpion sting'. While drug-induced pancreatitis from medications like aspirin or oral contraceptives is a possibility, the direct temporal relationship with the envenomation makes the scorpion sting the most compelling cause. Hypothyroidism is an unlikely etiology, particularly as the patient is receiving treatment.",
+      "concepts": [
+        {
+          "name": "Acute pancreatitis (disorder)",
+          "snomed_id": "15635008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=15635008"
+        },
+        {
+          "name": "Scorpion sting (disorder)",
+          "snomed_id": "243081004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=243081004"
+        },
+        {
+          "name": "Acute pancreatitis caused by scorpion sting (disorder)",
+          "snomed_id": "429210001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=429210001"
+        },
+        {
+          "name": "Zookeeper (occupation)",
+          "snomed_id": "159155001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=159155001"
+        },
+        {
+          "name": "Abdominal pain radiating to the back (finding)",
+          "snomed_id": "279024009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=279024009"
+        },
+        {
+          "name": "Nausea (finding)",
+          "snomed_id": "422587007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=422587007"
+        },
+        {
+          "name": "Swelling of ankle (finding)",
+          "snomed_id": "249733006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249733006"
+        },
+        {
+          "name": "Erythema (finding)",
+          "snomed_id": "271808008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271808008"
+        },
+        {
+          "name": "Drug-induced pancreatitis (disorder)",
+          "snomed_id": "281938004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=281938004"
+        },
+        {
+          "name": "Product containing oral contraceptive (medicinal product)",
+          "snomed_id": "372635003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=372635003"
+        },
+        {
+          "name": "Aspirin (substance)",
+          "snomed_id": "387458008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=387458008"
+        },
+        {
+          "name": "Hypothyroidism (disorder)",
+          "snomed_id": "40930008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=40930008"
+        },
+        {
+          "name": "Obesity (disorder)",
+          "snomed_id": "414915002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=414915002"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "question": "A 25-year-old primigravida presents to her physician for a routine prenatal visit. She is at 34 weeks gestation, as confirmed by an ultrasound examination. She has no complaints, but notes that the new shoes she bought 2 weeks ago do not fit anymore. The course of her pregnancy has been uneventful and she has been compliant with the recommended prenatal care. Her medical history is unremarkable. She has a 15-pound weight gain since the last visit 3 weeks ago. Her vital signs are as follows: blood pressure, 148/90 mm Hg; heart rate, 88/min; respiratory rate, 16/min; and temperature, 36.6\u2103 (97.9\u2109). The blood pressure on repeat assessment 4 hours later is 151/90 mm Hg. The fetal heart rate is 151/min. The physical examination is significant for 2+ pitting edema of the lower extremity. Which of the following tests o should confirm the probable condition of this patient?",
+    "options": {
+      "A": "Bilirubin assessment",
+      "B": "Coagulation studies",
+      "C": "Leukocyte count with differential",
+      "D": "24-hour urine protein"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient, a primigravida at 34 weeks gestation, presents with classic signs and symptoms of preeclampsia. These include new-onset elevated blood pressure (>140/90 mmHg on two occasions >4 hours apart) after 20 weeks gestation, accompanied by pitting edema and rapid weight gain. To confirm the diagnosis of preeclampsia, evidence of end-organ dysfunction is required, with proteinuria being the most common criterion. Therefore, a 24-hour urine protein measurement is the standard diagnostic test to quantify proteinuria and confirm the diagnosis. The other tests assess for severe features or complications like HELLP syndrome but do not establish the initial diagnosis.",
+      "concepts": [
+        {
+          "name": "Preeclampsia (disorder)",
+          "snomed_id": "398254007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=398254007"
+        },
+        {
+          "name": "Primigravida (finding)",
+          "snomed_id": "161755008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=161755008"
+        },
+        {
+          "name": "Elevated blood pressure finding (finding)",
+          "snomed_id": "67815008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=67815008"
+        },
+        {
+          "name": "Pitting edema (finding)",
+          "snomed_id": "79115008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=79115008"
+        },
+        {
+          "name": "Excessive weight gain in pregnancy (disorder)",
+          "snomed_id": "271737006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271737006"
+        },
+        {
+          "name": "Proteinuria (finding)",
+          "snomed_id": "271650006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271650006"
+        },
+        {
+          "name": "Measurement of protein in 24 hour urine specimen (procedure)",
+          "snomed_id": "399432000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=399432000"
+        },
+        {
+          "name": "HELLP syndrome (disorder)",
+          "snomed_id": "373216003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=373216003"
+        },
+        {
+          "name": "Finding of 34 weeks gestation (finding)",
+          "snomed_id": "276241006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=276241006"
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "question": "A 3900-g (8.6-lb) male infant is delivered at 39 weeks' gestation via spontaneous vaginal delivery. Pregnancy and delivery were uncomplicated but a prenatal ultrasound at 20 weeks showed a defect in the pleuroperitoneal membrane. Further evaluation of this patient is most likely to show which of the following findings?",
+    "options": {
+      "A": "Gastric fundus in the thorax",
+      "B": "Pancreatic ring around the duodenum",
+      "C": "Hypertrophy of the gastric pylorus",
+      "D": "Large bowel in the inguinal canal"
+    },
+    "gemini_answer": "A",
+    "validator_answer": "A",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's prenatal ultrasound finding of a defect in the pleuroperitoneal membrane directly points to a diagnosis of Congenital Diaphragmatic Hernia (CDH), most commonly a posterolateral Bochdalek hernia. This condition results from the failure of the pleuroperitoneal canal to close, allowing abdominal organs to herniate into the thorax. The most likely finding among the options is the displacement of the gastric fundus into the thoracic cavity. The other options represent distinct congenital anomalies with different embryological origins: annular pancreas, pyloric stenosis, and inguinal hernia.",
+      "concepts": [
+        {
+          "name": "Defective closure of pleuroperitoneal canal (morphologic abnormality)",
+          "snomed_id": "111242007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=111242007"
+        },
+        {
+          "name": "Congenital diaphragmatic hernia (disorder)",
+          "snomed_id": "32672006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=32672006"
+        },
+        {
+          "name": "Bochdalek's hernia (disorder)",
+          "snomed_id": "53799008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=53799008"
+        },
+        {
+          "name": "Pleuroperitoneal membrane structure (body structure)",
+          "snomed_id": "361730006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=361730006"
+        },
+        {
+          "name": "Displacement of stomach into thorax (finding)",
+          "snomed_id": "274895009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=274895009"
+        },
+        {
+          "name": "Prenatal ultrasonography (procedure)",
+          "snomed_id": "169234000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=169234000"
+        },
+        {
+          "name": "Annular pancreas (disorder)",
+          "snomed_id": "32704005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=32704005"
+        },
+        {
+          "name": "Congenital hypertrophic pyloric stenosis (disorder)",
+          "snomed_id": "41626002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=41626002"
+        },
+        {
+          "name": "Congenital inguinal hernia (disorder)",
+          "snomed_id": "40969000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=40969000"
+        }
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "question": "A 62-year-old woman presents for a regular check-up. She complains of lightheadedness and palpitations which occur episodically. Past medical history is significant for a myocardial infarction 6 months ago and NYHA class II chronic heart failure. She also was diagnosed with grade I arterial hypertension 4 years ago. Current medications are aspirin 81 mg, atorvastatin 10 mg, enalapril 10 mg, and metoprolol 200 mg daily. Her vital signs are a blood pressure of 135/90 mm Hg, a heart rate of 125/min, a respiratory rate of 14/min, and a temperature of 36.5\u00b0C (97.7\u00b0F). Cardiopulmonary examination is significant for irregular heart rhythm and decreased S1 intensity. ECG is obtained and is shown in the picture (see image). Echocardiography shows a left ventricular ejection fraction of 39%. Which of the following drugs is the best choice for rate control in this patient?",
+    "options": {
+      "A": "Atenolol",
+      "B": "Diltiazem",
+      "C": "Propafenone",
+      "D": "Digoxin"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient presents with atrial fibrillation and rapid ventricular response, requiring rate control. The decision is guided by her significant comorbidities: heart failure with reduced ejection fraction (HFrEF) and a history of myocardial infarction (structural heart disease). She is already on a high dose of metoprolol with inadequate rate control. Non-dihydropyridine calcium channel blockers like diltiazem are contraindicated in HFrEF due to their negative inotropic effect. Class Ic antiarrhythmics like propafenone are contraindicated in structural heart disease. Therefore, adding digoxin, which slows atrioventricular conduction without significant negative inotropy, is the most appropriate second-line agent for rate control in this clinical setting.",
+      "concepts": [
+        {
+          "name": "Atrial fibrillation with rapid ventricular response",
+          "snomed_id": "427479003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=427479003"
+        },
+        {
+          "name": "Heart failure with reduced ejection fraction",
+          "snomed_id": "703433004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=703433004"
+        },
+        {
+          "name": "History of myocardial infarction (situation)",
+          "snomed_id": "428751009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=428751009"
+        },
+        {
+          "name": "Essential hypertension",
+          "snomed_id": "59621000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=59621000"
+        },
+        {
+          "name": "Structural heart disease",
+          "snomed_id": "248555006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=248555006"
+        },
+        {
+          "name": "Palpitations",
+          "snomed_id": "80313002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=80313002"
+        },
+        {
+          "name": "Dizziness",
+          "snomed_id": "271780001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271780001"
+        },
+        {
+          "name": "Negative inotropic effect",
+          "snomed_id": "255473007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=255473007"
+        },
+        {
+          "name": "Metoprolol",
+          "snomed_id": "70770004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=70770004"
+        },
+        {
+          "name": "Atenolol",
+          "snomed_id": "12230005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=12230005"
+        },
+        {
+          "name": "Diltiazem",
+          "snomed_id": "3834004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=3834004"
+        },
+        {
+          "name": "Propafenone",
+          "snomed_id": "49202005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49202005"
+        },
+        {
+          "name": "Digoxin",
+          "snomed_id": "37931006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=37931006"
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "question": "A 35-year-old male presents to his primary care physician with complaints of seasonal allergies. He has been using intranasal vasoconstrictors several times per day for several weeks. What is a likely sequela of the chronic use of topical nasal decongestants?",
+    "options": {
+      "A": "Epistaxis",
+      "B": "Permanent loss of smell",
+      "C": "Persistent nasal crusting",
+      "D": "Persistent congestion"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The chronic overuse of topical nasal decongestants (vasoconstrictors) leads to tachyphylaxis, a decreased response to the drug. This results in rebound vasodilation of the nasal blood vessels and the development of rhinitis medicamentosa, a condition primarily characterized by persistent nasal congestion. This creates a cycle of dependency. While persistent congestion is the most common and defining sequela, other complications from chronic mucosal irritation can include epistaxis (nosebleeds) and nasal crusting. Significant mucosal damage could potentially lead to changes in smell, though permanent loss is less common.",
+      "concepts": [
+        {
+          "name": "Rhinitis medicamentosa (disorder)",
+          "snomed_id": "50692008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=50692008"
+        },
+        {
+          "name": "Nasal congestion (finding)",
+          "snomed_id": "68235000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=68235000"
+        },
+        {
+          "name": "Product containing solely topical nasal decongestant (product)",
+          "snomed_id": "412158003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=412158003"
+        },
+        {
+          "name": "Seasonal allergic rhinitis (disorder)",
+          "snomed_id": "232347008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=232347008"
+        },
+        {
+          "name": "Tachyphylaxis (finding)",
+          "snomed_id": "271813007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271813007"
+        },
+        {
+          "name": "Epistaxis (finding)",
+          "snomed_id": "249366005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249366005"
+        },
+        {
+          "name": "Nasal crusting (finding)",
+          "snomed_id": "249483000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249483000"
+        },
+        {
+          "name": "Anosmia (finding)",
+          "snomed_id": "44169009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=44169009"
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "question": "A 46-year-old woman comes to the physician because of a 2-week history of diplopia and ocular pain when reading the newspaper. She also has a 3-month history of amenorrhea, hot flashes, and increased sweating. She reports that she has been overweight all her adult life and is happy to have lost 6.8-kg (15-lb) of weight in the past 2 months. Her pulse is 110/min, and blood pressure is 148/98 mm Hg. Physical examination shows moist palms and a nontender thyroid gland that is enlarged to two times its normal size. Ophthalmologic examination shows prominence of the globes of the eyes, bilateral lid retraction, conjunctival injection, and an inability to converge the eyes. There is no pain on movement of the extraocular muscles. Visual acuity is 20/20 bilaterally. Neurologic examination shows a fine resting tremor of the hands. Deep tendon reflexes are 3+ with a shortened relaxation phase. Which of the following is the most likely cause of this patient's ocular complaints?",
+    "options": {
+      "A": "Granulomatous inflammation of the cavernous sinus",
+      "B": "Abnormal communication between the cavernous sinus and the internal carotid artery",
+      "C": "Glycosaminoglycan accumulation in the orbit",
+      "D": "Sympathetic hyperactivity of levator palpebrae superioris"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "C",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's clinical presentation, including systemic signs of hyperthyroidism (tachycardia, weight loss, goiter, tremor, hyperreflexia) and specific ocular findings (exophthalmos, lid retraction, diplopia), is characteristic of Graves' disease with thyroid-associated orbitopathy. The underlying pathophysiology for the proptosis and extraocular muscle dysfunction is an autoimmune process stimulating orbital fibroblasts to produce excess hydrophilic glycosaminoglycans. This accumulation increases the volume of retro-orbital tissues (fat and extraocular muscles), leading to the patient's primary ocular complaints of proptosis and diplopia. While sympathetic hyperactivity contributes to lid retraction, it is the glycosaminoglycan accumulation that is the fundamental cause of the full orbital disease.",
+      "concepts": [
+        {
+          "name": "Graves' disease (disorder)",
+          "snomed_id": "56637001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=56637001"
+        },
+        {
+          "name": "Thyroid-associated orbitopathy (disorder)",
+          "snomed_id": "248740001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=248740001"
+        },
+        {
+          "name": "Accumulation of glycosaminoglycan (finding)",
+          "snomed_id": "442293003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=442293003"
+        },
+        {
+          "name": "Exophthalmos (finding)",
+          "snomed_id": "18222000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=18222000"
+        },
+        {
+          "name": "Diplopia (finding)",
+          "snomed_id": "24982000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=24982000"
+        },
+        {
+          "name": "Convergence insufficiency (finding)",
+          "snomed_id": "111516008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=111516008"
+        },
+        {
+          "name": "Goiter (disorder)",
+          "snomed_id": "3716002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=3716002"
+        },
+        {
+          "name": "Tachycardia (finding)",
+          "snomed_id": "3424008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=3424008"
+        },
+        {
+          "name": "Weight loss (finding)",
+          "snomed_id": "262331006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=262331006"
+        },
+        {
+          "name": "Amenorrhea (finding)",
+          "snomed_id": "86860004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=86860004"
+        },
+        {
+          "name": "Lid retraction (finding)",
+          "snomed_id": "41478003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=41478003"
+        },
+        {
+          "name": "Tremor (finding)",
+          "snomed_id": "260747007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=260747007"
+        },
+        {
+          "name": "Hyperreflexia (finding)",
+          "snomed_id": "86817006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=86817006"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "question": "A 1-year-old boy presents to the emergency department with weakness and a change in his behavior. His parents state that they first noticed the change in his behavior this morning and it has been getting worse. They noticed the patient was initially weak in his upper body and arms, but now he won\u2019t move his legs with as much strength or vigor as he used to. Physical exam is notable for bilateral ptosis with a sluggish pupillary response, a very weak sucking and gag reflex, and shallow respirations. The patient is currently drooling and his diaper is dry. The parents state he has not had a bowel movement in over 1 day. Which of the following is the pathophysiology of this patient\u2019s condition?",
+    "options": {
+      "A": "Autoantibodies against the presynaptic voltage-gated calcium channels",
+      "B": "Autoimmune demyelination of peripheral nerves",
+      "C": "Blockade of presynaptic acetylcholine release at the neuromuscular junction",
+      "D": "Lower motor neuron destruction in the anterior horn"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "C",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The clinical presentation of an infant with acute, descending, symmetric flaccid paralysis, multiple cranial nerve palsies (ptosis, weak suck/gag, sluggish pupils), and autonomic dysfunction (constipation, urinary retention) is classic for infant botulism. The pathophysiology of botulism is the inhibition of presynaptic acetylcholine release at the neuromuscular junction by botulinum toxin, which directly corresponds to the correct answer. The other options describe Lambert-Eaton Myasthenic Syndrome, Guillain-Barr\u00e9 Syndrome, and anterior horn cell diseases, which are ruled out by the specific clinical features and progression.",
+      "concepts": [
+        {
+          "name": "Infant botulism",
+          "snomed_id": "75924001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=75924001"
+        },
+        {
+          "name": "Blockade of release of acetylcholine from presynaptic terminal",
+          "snomed_id": "442089006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=442089006"
+        },
+        {
+          "name": "Descending paralysis",
+          "snomed_id": "249911004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249911004"
+        },
+        {
+          "name": "Flaccid paralysis",
+          "snomed_id": "103328002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=103328002"
+        },
+        {
+          "name": "Bilateral ptosis",
+          "snomed_id": "193892008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=193892008"
+        },
+        {
+          "name": "Sluggish pupillary light reflex",
+          "snomed_id": "246816003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=246816003"
+        },
+        {
+          "name": "Weak sucking reflex",
+          "snomed_id": "249703002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249703002"
+        },
+        {
+          "name": "Diminished gag reflex",
+          "snomed_id": "249673006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249673006"
+        },
+        {
+          "name": "Shallow breathing",
+          "snomed_id": "271823004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=271823004"
+        },
+        {
+          "name": "Constipation",
+          "snomed_id": "14760008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=14760008"
+        },
+        {
+          "name": "Urinary retention",
+          "snomed_id": "267011004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=267011004"
+        },
+        {
+          "name": "Lambert-Eaton myasthenic syndrome",
+          "snomed_id": "13083002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=13083002"
+        },
+        {
+          "name": "Guillain-Barr\u00e9 syndrome",
+          "snomed_id": "35955008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=35955008"
+        },
+        {
+          "name": "Disease of anterior horn cell",
+          "snomed_id": "128416001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=128416001"
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "question": "A 9-month-old female is brought to the emergency department after experiencing a seizure. She was born at home and was normal at birth according to her parents. Since then, they have noticed that she does not appear to be achieving developmental milestones as quickly as her siblings, and often appears lethargic. Physical exam reveals microcephaly, very light pigmentation (as compared to her family), and a \"musty\" body odor. The varied manifestations of this disease can most likely be attributed to which of the following genetic principles?",
+    "options": {
+      "A": "Anticipation",
+      "B": "Multiple gene mutations",
+      "C": "Pleiotropy",
+      "D": "Variable expressivity"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "C",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's clinical presentation, including developmental delay, seizures, microcephaly, hypopigmentation, lethargy, and a musty body odor, is classic for Phenylketonuria (PKU). PKU is an inborn error of metabolism caused by a mutation in a single gene (PAH). The principle where one gene defect leads to multiple, seemingly unrelated phenotypic effects (neurological, dermatological, metabolic) is known as pleiotropy. The core biochemical issue is hyperphenylalaninemia.",
+      "concepts": [
+        {
+          "name": "Phenylketonuria (disorder)",
+          "snomed_id": "75089002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=75089002"
+        },
+        {
+          "name": "Pleiotropy (qualifier value)",
+          "snomed_id": "125438006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=125438006"
+        },
+        {
+          "name": "Seizure (finding)",
+          "snomed_id": "91175000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=91175000"
+        },
+        {
+          "name": "Finding of developmental delay (finding)",
+          "snomed_id": "224958001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=224958001"
+        },
+        {
+          "name": "Lethargy (finding)",
+          "snomed_id": "214264003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=214264003"
+        },
+        {
+          "name": "Microcephaly (finding)",
+          "snomed_id": "118749009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=118749009"
+        },
+        {
+          "name": "Hypopigmentation of skin (finding)",
+          "snomed_id": "111527003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=111527003"
+        },
+        {
+          "name": "Abnormal odor of body substance (finding)",
+          "snomed_id": "83450000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=83450000"
+        },
+        {
+          "name": "Inborn error of metabolism (disorder)",
+          "snomed_id": "64772007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=64772007"
+        },
+        {
+          "name": "Hyperphenylalaninemia (finding)",
+          "snomed_id": "59288005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=59288005"
+        },
+        {
+          "name": "Autosomal recessive inheritance (qualifier value)",
+          "snomed_id": "255460005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=255460005"
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "question": "A 23-year-old man comes to the physician for evaluation of decreased hearing, dizziness, and ringing in his right ear for the past 6 months. Physical examination shows multiple soft, yellow plaques and papules on his arms, chest, and back. There is sensorineural hearing loss and weakness of facial muscles bilaterally. His gait is unsteady. An MRI of the brain shows a 3-cm mass near the right internal auditory meatus and a 2-cm mass at the left cerebellopontine angle. The abnormal cells in these masses are most likely derived from which of the following embryological structures?",
+    "options": {
+      "A": "Neural tube",
+      "B": "Surface ectoderm",
+      "C": "Neural crest",
+      "D": "Notochord"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's clinical presentation, including bilateral sensorineural hearing loss, facial weakness, and MRI findings of bilateral masses at the cerebellopontine angle, is pathognomonic for Neurofibromatosis type 2 (NF2). The masses are bilateral vestibular schwannomas, which are tumors arising from Schwann cells. Embryologically, Schwann cells are derived from the neural crest. Therefore, the abnormal cells in the patient's tumors originate from the neural crest.",
+      "concepts": [
+        {
+          "name": "Neurofibromatosis type 2",
+          "snomed_id": "92824003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=92824003"
+        },
+        {
+          "name": "Vestibular schwannoma",
+          "snomed_id": "371926006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=371926006"
+        },
+        {
+          "name": "Bilateral sensorineural hearing loss",
+          "snomed_id": "442220005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=442220005"
+        },
+        {
+          "name": "Tinnitus",
+          "snomed_id": "60862001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=60862001"
+        },
+        {
+          "name": "Dizziness",
+          "snomed_id": "404640003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=404640003"
+        },
+        {
+          "name": "Bilateral facial nerve palsy",
+          "snomed_id": "193137000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=193137000"
+        },
+        {
+          "name": "Gait instability",
+          "snomed_id": "394783008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=394783008"
+        },
+        {
+          "name": "Structure of cerebellopontine angle",
+          "snomed_id": "117822005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=117822005"
+        },
+        {
+          "name": "Schwann cell",
+          "snomed_id": "87985004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=87985004"
+        },
+        {
+          "name": "Neural crest structure",
+          "snomed_id": "49541009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49541009"
+        },
+        {
+          "name": "Neural tube structure",
+          "snomed_id": "49540008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49540008"
+        },
+        {
+          "name": "Surface ectoderm structure",
+          "snomed_id": "49542002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49542002"
+        },
+        {
+          "name": "Notochord structure",
+          "snomed_id": "49539001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49539001"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "question": "A 62-year-old woman comes to the physician because of coughing and fatigue during the past 2 years. In the morning, the cough is productive of white phlegm. She becomes short of breath walking up a flight of stairs. She has hypertension and hyperlipidemia. She has recently retired from working as a nurse at a homeless shelter. She has smoked 1 pack of cigarettes daily for 40 years. Current medications include ramipril and fenofibrate. Her temperature is 36.5\u00b0C (97.7\u00b0F), respirations are 24/min, pulse is 85/min, and blood pressure is 140/90 mm Hg. Scattered wheezing and rhonchi are heard throughout both lung fields. There are no murmurs, rubs, or gallops but heart sounds are distant. Which of the following is the most likely underlying cause of this patient's symptoms?",
+    "options": {
+      "A": "Chronic decrease in pulmonary compliance",
+      "B": "Local accumulation of kinins",
+      "C": "Progressive obstruction of expiratory airflow",
+      "D": "Incremental loss of functional residual capacity"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "C",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's presentation, including a significant 40-pack-year smoking history, a chronic productive cough, dyspnea on exertion, and physical exam findings of wheezing and rhonchi, is classic for Chronic Obstructive Pulmonary Disease (COPD). The defining pathophysiological feature of COPD is persistent and progressive obstruction of expiratory airflow. This explains all her respiratory symptoms and signs. Option A (decreased compliance) and Option D (decreased functional residual capacity) are features of restrictive, not obstructive, lung disease; in COPD, both compliance and FRC are typically increased. Option B (local accumulation of kinins) describes the mechanism of an ACE inhibitor-induced cough, which is typically dry and non-productive, and would not account for the entire clinical syndrome.",
+      "concepts": [
+        {
+          "name": "Chronic obstructive pulmonary disease",
+          "snomed_id": "13645005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=13645005"
+        },
+        {
+          "name": "Airflow obstruction",
+          "snomed_id": "260388007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=260388007"
+        },
+        {
+          "name": "History of tobacco smoking",
+          "snomed_id": "82302008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=82302008"
+        },
+        {
+          "name": "Productive cough",
+          "snomed_id": "28743005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=28743005"
+        },
+        {
+          "name": "Dyspnea on exertion",
+          "snomed_id": "60845006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=60845006"
+        },
+        {
+          "name": "Wheezing",
+          "snomed_id": "56018004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=56018004"
+        },
+        {
+          "name": "Rhonchi",
+          "snomed_id": "54595009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=54595009"
+        },
+        {
+          "name": "Decreased lung compliance",
+          "snomed_id": "13134005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=13134005"
+        },
+        {
+          "name": "Increased lung compliance",
+          "snomed_id": "276949004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=276949004"
+        },
+        {
+          "name": "Decreased functional residual capacity",
+          "snomed_id": "111520002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=111520002"
+        },
+        {
+          "name": "Increased functional residual capacity",
+          "snomed_id": "251147000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=251147000"
+        },
+        {
+          "name": "Cough caused by angiotensin-converting enzyme inhibitor",
+          "snomed_id": "431019003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=431019003"
+        },
+        {
+          "name": "Ramipril",
+          "snomed_id": "387349007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=387349007"
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "question": "A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3\u00b0F (37.4\u00b0C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient\u2019s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management?",
+    "options": {
+      "A": "Graded exercise and aspirin",
+      "B": "Heparin drip",
+      "C": "Surgical thrombectomy",
+      "D": "Tissue plasminogen activator"
+    },
+    "gemini_answer": "B",
+    "validator_answer": "B",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's presentation with signs and symptoms such as sudden onset pain, pallor, poikilothermia (coldness), paresthesia (sensory loss), and profound muscle weakness is characteristic of acute limb ischemia. The patient's history of atrial fibrillation strongly suggests an arterial embolism of the lower limb as the underlying cause. The immediate management goal for this vascular emergency is to prevent further clot propagation. Therefore, the best initial step is an intravenous infusion of heparin, while arranging for definitive revascularization, such as surgical thrombectomy or thrombolysis with tissue plasminogen activator.",
+      "concepts": [
+        {
+          "name": "Acute ischemia of lower limb (disorder)",
+          "snomed_id": "444265008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=444265008"
+        },
+        {
+          "name": "Arterial embolism of lower limb (disorder)",
+          "snomed_id": "74619005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=74619005"
+        },
+        {
+          "name": "Atrial fibrillation (disorder)",
+          "snomed_id": "49436004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=49436004"
+        },
+        {
+          "name": "Pain in lower limb (finding)",
+          "snomed_id": "106950009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=106950009"
+        },
+        {
+          "name": "Pallor (finding)",
+          "snomed_id": "30113001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=30113001"
+        },
+        {
+          "name": "Poikilothermia of skin (finding)",
+          "snomed_id": "248743006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=248743006"
+        },
+        {
+          "name": "Paresthesia (finding)",
+          "snomed_id": "70279005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=70279005"
+        },
+        {
+          "name": "Muscle weakness (finding)",
+          "snomed_id": "26544005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=26544005"
+        },
+        {
+          "name": "Intravenous infusion of heparin (procedure)",
+          "snomed_id": "430041000124103",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=430041000124103"
+        },
+        {
+          "name": "Surgical thrombectomy (procedure)",
+          "snomed_id": "304093006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=304093006"
+        },
+        {
+          "name": "Administration of tissue-type plasminogen activator (procedure)",
+          "snomed_id": "429671008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=429671008"
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "question": "A 76-year-old African American man presents to his primary care provider complaining of urinary frequency. He wakes up 3-4 times per night to urinate while he previously only had to wake up once per night. He also complains of post-void dribbling and difficulty initiating a stream of urine. He denies any difficulty maintaining an erection. His past medical history is notable for non-alcoholic fatty liver disease, hypertension, hyperlipidemia, and gout. He takes aspirin, atorvastatin, enalapril, and allopurinol. His family history is notable for prostate cancer in his father and lung cancer in his mother. He has a 15-pack-year smoking history and drinks alcohol socially. On digital rectal exam, his prostate is enlarged, smooth, and non-tender. Which of the following medications is indicated in this patient?",
+    "options": {
+      "A": "Hydrochlorothiazide",
+      "B": "Midodrine",
+      "C": "Oxybutynin",
+      "D": "Tamsulosin"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient presents with classic lower urinary tract symptoms (LUTS), including urinary frequency, nocturia, hesitancy, and post-void dribbling. The digital rectal exam finding of a smoothly enlarged prostate is highly suggestive of Benign Prostatic Hyperplasia (BPH), which causes a bladder outlet obstruction. The indicated treatment is an alpha-1 adrenergic antagonist like Tamsulosin, which relaxes smooth muscle in the prostate and bladder neck to improve urinary flow. The other options are incorrect: hydrochlorothiazide (a diuretic) would worsen frequency, midodrine (an alpha-1 agonist) would worsen the obstruction, and oxybutynin (an anticholinergic) could precipitate urinary retention.",
+      "concepts": [
+        {
+          "name": "Benign prostatic hyperplasia (disorder)",
+          "snomed_id": "266569009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=266569009"
+        },
+        {
+          "name": "Lower urinary tract symptoms (finding)",
+          "snomed_id": "429354005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=429354005"
+        },
+        {
+          "name": "Nocturia (finding)",
+          "snomed_id": "62186007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=62186007"
+        },
+        {
+          "name": "Pollakiuria (finding)",
+          "snomed_id": "162029009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=162029009"
+        },
+        {
+          "name": "Hesitancy of micturition (finding)",
+          "snomed_id": "129940006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=129940006"
+        },
+        {
+          "name": "Post-micturition dribbling (finding)",
+          "snomed_id": "249339003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=249339003"
+        },
+        {
+          "name": "Enlarged prostate (finding)",
+          "snomed_id": "413349009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=413349009"
+        },
+        {
+          "name": "Bladder outlet obstruction (disorder)",
+          "snomed_id": "55334005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=55334005"
+        },
+        {
+          "name": "Tamsulosin (substance)",
+          "snomed_id": "387438008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=387438008"
+        },
+        {
+          "name": "Product containing alpha-adrenoceptor antagonist (product)",
+          "snomed_id": "372659005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=372659005"
+        }
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "question": "A 68-year-old man comes to the physician because of recurrent episodes of nausea and abdominal discomfort for the past 4 months. The discomfort is located in the upper abdomen and sometimes occurs after eating, especially after a big meal. He has tried to go for a walk after dinner to help with digestion, but his complaints have only increased. For the past 3 weeks he has also had symptoms while climbing the stairs to his apartment. He has type 2 diabetes mellitus, hypertension, and stage 2 peripheral arterial disease. He has smoked one pack of cigarettes daily for the past 45 years. He drinks one to two beers daily and occasionally more on weekends. His current medications include metformin, enalapril, and aspirin. He is 168 cm (5 ft 6 in) tall and weighs 126 kg (278 lb); BMI is 45 kg/m2. His temperature is 36.4\u00b0C (97.5\u00b0F), pulse is 78/min, and blood pressure is 148/86 mm Hg. On physical examination, the abdomen is soft and nontender with no organomegaly. Foot pulses are absent bilaterally. An ECG shows no abnormalities. Which of the following is the most appropriate next step in diagnosis?",
+    "options": {
+      "A": "Esophagogastroduodenoscopy",
+      "B": "Hydrogen breath test",
+      "C": "Cardiac stress test",
+      "D": "Abdominal ultrasonography of the right upper quadrant"
+    },
+    "gemini_answer": "C",
+    "validator_answer": "C",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's symptoms of upper abdominal discomfort and nausea are provoked by physical exertion (walking, climbing stairs), which are classic anginal equivalents, an atypical presentation of myocardial ischemia. The patient has multiple significant risk factors for coronary artery disease, including advanced age, type 2 diabetes mellitus, hypertension, class III obesity, a long smoking history, and established peripheral arterial disease (confirmed by absent foot pulses). The presence of peripheral arterial disease markedly increases the likelihood of concurrent coronary artery disease. A normal resting ECG does not rule out stable angina. Therefore, a cardiac stress test is the most appropriate diagnostic next step to investigate for exercise-induced myocardial ischemia.",
+      "concepts": [
+        {
+          "name": "Anginal equivalent",
+          "snomed_id": "233843008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=233843008"
+        },
+        {
+          "name": "Exertional symptom",
+          "snomed_id": "289134000",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=289134000"
+        },
+        {
+          "name": "Nausea",
+          "snomed_id": "422587007",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=422587007"
+        },
+        {
+          "name": "Upper abdominal pain",
+          "snomed_id": "274644005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=274644005"
+        },
+        {
+          "name": "Myocardial ischemia",
+          "snomed_id": "53741008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=53741008"
+        },
+        {
+          "name": "Chronic stable angina",
+          "snomed_id": "22298006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=22298006"
+        },
+        {
+          "name": "Peripheral arterial disease",
+          "snomed_id": "400054009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=400054009"
+        },
+        {
+          "name": "Type 2 diabetes mellitus",
+          "snomed_id": "44054006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=44054006"
+        },
+        {
+          "name": "Hypertensive disorder, systemic arterial",
+          "snomed_id": "38341003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=38341003"
+        },
+        {
+          "name": "Smoker",
+          "snomed_id": "77176002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=77176002"
+        },
+        {
+          "name": "Obesity class III",
+          "snomed_id": "408502005",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=408502005"
+        },
+        {
+          "name": "Absent peripheral pulse",
+          "snomed_id": "102523001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=102523001"
+        },
+        {
+          "name": "Cardiac stress test",
+          "snomed_id": "164823009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=164823009"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "question": "A 27-year-old female presents to general medical clinic for a routine checkup. She has a genetic disease marked by a mutation in a chloride transporter. She has a history of chronic bronchitis. She has a brother with a similar history of infections as well as infertility. Which of the following is most likely true regarding a potential vitamin deficiency complication secondary to this patient's chronic illness?",
+    "options": {
+      "A": "It may result in corneal vascularization",
+      "B": "It may result in the triad of confusion, ophthalmoplegia, and ataxia",
+      "C": "It may be exacerbated by excessive ingestion of raw eggs",
+      "D": "It may manifest itself as a prolonged PT"
+    },
+    "gemini_answer": "D",
+    "validator_answer": "A/B/C/D",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The clinical vignette strongly suggests a diagnosis of Cystic Fibrosis (CF), a genetic disorder affecting a chloride transporter (CFTR). Key features include chronic bronchitis and a family history suggestive of male infertility (congenital bilateral absence of the vas deferens), both common in CF. A major complication of CF is exocrine pancreatic insufficiency, leading to fat malabsorption. This results in deficiencies of fat-soluble vitamins (A, D, E, and K). Vitamin K deficiency impairs the synthesis of clotting factors, which manifests as a coagulopathy detected by a prolonged prothrombin time (PT). The other options describe complications of water-soluble B-vitamin deficiencies (A: Riboflavin, B: Thiamine, C: Biotin), which are not the characteristic malabsorptive issues seen in CF.",
+      "concepts": [
+        {
+          "name": "Cystic fibrosis",
+          "snomed_id": "56717001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=56717001"
+        },
+        {
+          "name": "Chronic bronchitis",
+          "snomed_id": "63480009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=63480009"
+        },
+        {
+          "name": "Male infertility",
+          "snomed_id": "48554008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=48554008"
+        },
+        {
+          "name": "Exocrine pancreatic insufficiency",
+          "snomed_id": "234907001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=234907001"
+        },
+        {
+          "name": "Malabsorption of fat-soluble vitamin",
+          "snomed_id": "238392008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=238392008"
+        },
+        {
+          "name": "Vitamin K deficiency",
+          "snomed_id": "13154009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=13154009"
+        },
+        {
+          "name": "Prolonged prothrombin time",
+          "snomed_id": "86466006",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=86466006"
+        },
+        {
+          "name": "Coagulopathy due to vitamin K deficiency",
+          "snomed_id": "234479001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=234479001"
+        },
+        {
+          "name": "Corneal neovascularization",
+          "snomed_id": "5987009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=5987009"
+        },
+        {
+          "name": "Riboflavin deficiency",
+          "snomed_id": "37604008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=37604008"
+        },
+        {
+          "name": "Wernicke's encephalopathy",
+          "snomed_id": "30550009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=30550009"
+        },
+        {
+          "name": "Thiamine deficiency",
+          "snomed_id": "43063004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=43063004"
+        },
+        {
+          "name": "Biotin deficiency",
+          "snomed_id": "11379004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=11379004"
+        }
+      ]
+    }
+  },
+  {
+    "id": 20,
+    "question": "A previously healthy 36-year-old man comes to the physician for a yellow discoloration of his skin and dark-colored urine for 2 weeks. He does not drink any alcohol. Physical examination shows jaundice. Abdominal and neurologic examinations show no abnormalities. Serum studies show increased levels of alanine aminotransferase (ALT) and aspartate aminotransferase (AST). A liver biopsy is performed and a photomicrograph after periodic acid-Schiff-staining is shown. Which of the following is the most likely additional finding in this patient?",
+    "options": {
+      "A": "Bullous changes of the lung bases on chest CT",
+      "B": "Beading of intra- and extrahepatic bile ducts on ERCP",
+      "C": "Myocardial iron deposition on cardiovascular MRI",
+      "D": "Dark corneal ring on slit-lamp examination"
+    },
+    "gemini_answer": "A",
+    "validator_answer": "A",
+    "is_consistent_with_reasoning": true,
+    "enhanced_snomed_reasoning": {
+      "summary": "The patient's presentation with hepatitis (jaundice, dark urine, elevated aminotransferases) in a young adult, combined with the mention of a periodic acid-Schiff (PAS) stain on liver biopsy, is highly suggestive of Alpha-1 antitrypsin deficiency (A1AD). The pathognomonic finding on liver biopsy is PAS-positive, diastase-resistant globules within hepatocytes. A1AD is a genetic disorder leading to both liver disease (from accumulation of misfolded protein) and lung disease. The deficiency of circulating alpha-1 antitrypsin leads to unchecked elastase activity in the lungs, causing panacinar emphysema, which classically affects the lower lobes and appears as bullous changes on CT. The other options represent different liver diseases: Primary Sclerosing Cholangitis (beading of bile ducts), Hemochromatosis (myocardial iron deposition), and Wilson's disease (Kayser-Fleischer ring).",
+      "concepts": [
+        {
+          "name": "Alpha-1-antitrypsin deficiency",
+          "snomed_id": "66970003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=66970003"
+        },
+        {
+          "name": "Jaundice",
+          "snomed_id": "18165001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=18165001"
+        },
+        {
+          "name": "Dark urine",
+          "snomed_id": "399698003",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=399698003"
+        },
+        {
+          "name": "Hepatitis",
+          "snomed_id": "3723001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=3723001"
+        },
+        {
+          "name": "Increased alanine aminotransferase level",
+          "snomed_id": "166692008",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=166692008"
+        },
+        {
+          "name": "Increased aspartate aminotransferase level",
+          "snomed_id": "166694009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=166694009"
+        },
+        {
+          "name": "Periodic acid-Schiff positive, diastase resistant globule",
+          "snomed_id": "255146001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=255146001"
+        },
+        {
+          "name": "Panlobular emphysema",
+          "snomed_id": "46833004",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=46833004"
+        },
+        {
+          "name": "Bullous disease of lung",
+          "snomed_id": "268045001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=268045001"
+        },
+        {
+          "name": "Primary sclerosing cholangitis",
+          "snomed_id": "55827002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=55827002"
+        },
+        {
+          "name": "Beading of bile duct",
+          "snomed_id": "275037009",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=275037009"
+        },
+        {
+          "name": "Myocardial iron overload",
+          "snomed_id": "722668002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=722668002"
+        },
+        {
+          "name": "Wilson's disease",
+          "snomed_id": "82987002",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=82987002"
+        },
+        {
+          "name": "Kayser-Fleischer ring",
+          "snomed_id": "55236001",
+          "link": "https://browser.ihtsdotools.org/?perspective=full&conceptId1=55236001"
+        }
+      ]
+    }
+  }
+]
